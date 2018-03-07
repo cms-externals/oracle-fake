@@ -124,7 +124,7 @@ OCCI_STD_NAMESPACE::string Timestamp::toText(
   THROW_RUNTIME;
 };
 void Timestamp::getTime(unsigned int&, unsigned int&, unsigned int&, unsigned int&) const{THROW_RUNTIME;}
-void Timestamp::void getDate(int&, unsigned int&, unsigned int&) const {THROW_RUNTIME;}
+void Timestamp::getDate(int&, unsigned int&, unsigned int&) const {THROW_RUNTIME;}
 
 class Number {
  public:
